@@ -8,41 +8,89 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    
+  
+   
 
     <title>Rohan</title>
   </head>
 
   <body>
-    <header>
-      <div class="inner">
-        <h1>JS Summariz</h1>
-        <h2>An NLP Summarizer built with Javascript..</h2>
-      </div>
-    </header>
-
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-
-  <label for="title">Title:</label><br>
-  <input type="text" id="title" placeholder="Paste title here" />
-  <br>
-  <label for="input">Full Text:</label><br>
-  <textarea id="input" name="input" cols="40" rows="5" placeholder="Paste full text here"></textarea>
-  <br><input type="button" id="split" value="Summarize" />
-  <h2 class="title"></h2>
-  <ul class="teasers"></ul>
-</section>
-
-        <aside id="sidebar">
-        </aside>
-      </div>
-    </div>
+    
   <script src="lib/lodash/lodash.js" type="text/javascript"></script>
   <script src="lib/jquery/jquery.js" type="text/javascript"></script>
   <script src="lib/tokenizer/tokenizer.js" type="text/javascript"></script>
   <script src="js-summarize.js" type="text/javascript"></script>
   <script src="app.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  
+<header>
+
+</header>
+
+<!-- Introduction -->
+<section id="home">
+  <center>
+    <div width=100%>
+      <h1 width=100%>JS Summarizer</h1>
+      <br>
+      <h2>An NLP Summarizer built with Javascript..</h2>
+    </div>
+    <div style="padding-bottom: 20px;">
+      <br>
+    <label for="title">Title:</label><br>
+    <input type="text" id="title" placeholder="Paste title here" />
+    <br>
+    <label for="input">Full Text:</label><br>
+    <textarea id="input" name="input" cols="40" rows="5" placeholder="Paste full text here"></textarea> 
+    <br><input type="button" id="split" value="Summarize"/>
+    </div>
+    <br>
+    <h2 class="title" ></h2>
+    <br>
+    <ul class="teasers" style="width:100%; max-width:1000px"></ul>
+    <ul class></ul>
+  </center>
+  
+  
+ 
+</section>
+
+
+<!-- My services -->
+<section class="my-services" id="services">
+    <h2 class="section__title section__title--services">reVIEW's Potential</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Impact</h3>
+            <p>Through this product, hours will be saved as learning will become much more efficient. By studying only the main facts, needless and irrelevant information will be skipped.</p>
+        </div> <!-- / service -->
+        
+        <div class="service">
+            
+                <h3>Applications</h3>
+                <p>This tool could be used in a variety of situations ranging from university courses to research papers. It can empower everyone will the power to understand more by reading less.</p>
+            
+        </div> <!-- / service -->
+        
+        <div class="service">
+            <h3>Future Visions</h3>
+            <p>If permitted, our team plans to build out this application to include features such as real-time video accompaniment to the summarized text. Additionally, we aim to further education.</p>
+        </div> <!-- / service -->
+    </div> <!-- / services -->
+    
+</section>
+
+
+
+
+<!-- Footer -->
+<footer class="footer">
+    <!-- replace with your own email address -->
+    <a href="mailto:reVIEW@gmail.com" class="footer__link">reVIEW@gmail.com</a>
+</footer>
+<script src="js/index.js"></script>
+   
 
   </body>
 </html>
